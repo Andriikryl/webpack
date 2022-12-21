@@ -1,0 +1,21 @@
+$primaryColor: darkcyan;
+$secondory: tomato;
+
+html{
+    font-family: generalFont;
+}
+
+
+h1{
+    color:  $secondory;
+}
+
+
+.container{
+    background: url(../images/signal_enthusiast_by_seven_teenth_dfh5v16.jpg);
+    &__subheader{
+        color: $primaryColor;
+        display: flex;
+        justify-content: center;
+    }
+}
